@@ -80,9 +80,12 @@ Ingrese su opción: """);
     }
     }
     private static void promedio(){
-    float promedio;
-
+    float promedio=0;
+    if(promedio==0){
+        System.out.println("No existen notas del estudiante");
+    }
+    else{
     promedio=(nota1f+nota2f+nota3f)/3;
-    System.out.printf("El promedio del estudiante es %f%n : ",promedio);
+    System.out.printf("El promedio del estudiante es %f%n : ",promedio);}
     }
 }
